@@ -1,0 +1,34 @@
+header {
+    height: 80px;
+    background-color: red;
+}
+
+.left_side_header img{
+    height: 80px;
+}
+
+.left_side_header a {
+    text-decoration: none;
+    color: gray;
+    margin-left: 0.5rem;
+}
+
+.right_side_header img{
+    height: 30px;
+}
+
+.right_side_header a {
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.border_1 {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+#border_1 {
+    border: 1px solid black;
+    border-radius: 0;
+}
