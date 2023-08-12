@@ -23,6 +23,10 @@ header {
     color: gray;
 }
 
+/* start main */
+
+/* insieme per il nostro pianeta */
+
 .border_1 {
     border: 1px solid black;
     border-radius: 0;
@@ -31,4 +35,18 @@ header {
 #border_1 {
     border: 1px solid black;
     border-radius: 0;
+}
+
+/* film section */
+
+.container_img {
+}
+
+.container_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.riga-film{
+    height: 150px;
 }
