@@ -1,6 +1,7 @@
+
 header {
     height: 80px;
-    background-color: red;
+    background-color: black;
 }
 
 .left_side_header img{
@@ -9,7 +10,7 @@ header {
 
 .left_side_header a {
     text-decoration: none;
-    color: gray;
+    color: white;
     margin-left: 0.5rem;
 }
 
@@ -20,27 +21,33 @@ header {
 .right_side_header a {
     margin-right: 0.5rem;
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 
 /* start main */
 
+main {
+    background-color: black;
+}
+
 /* insieme per il nostro pianeta */
 
+.gray {
+    color: gray;
+}
+
 .border_1 {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 0;
 }
 
 #border_1 {
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 0;
 }
 
 /* film section */
 
-.container_img {
-}
 
 .container_img img {
     width: 100%;

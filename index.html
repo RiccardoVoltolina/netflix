@@ -21,25 +21,25 @@
                     <div class="d-flex align-items-center justify-content-between">
                         <div class="left_side_header d-flex align-items-center">
                             <img src="./img/Netflix-logo-red-black-png.png" alt="">
-                            <a href="#">Home</a>
-                            <a href="#">Serie TV</a>
-                            <a href="#">Nuovi Popolari</a>
-                            <a href="#">La mia lista</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">Home</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">Serie TV</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">Nuovi Popolari</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">La mia lista</a>
                         </div>
                         <div class="right_side_header d-flex align-items-center">
-                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-                            <a href="#">Bambini</a>
-                            <a href="#">DVD</a>
-                            <a href="#"><i class="fa-solid fa-bell"></i></a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">Bambini</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#">DVD</a>
+                            <a class="d-sm-none d-md-none d-lg-block" href="#"><i class="fa-solid fa-bell"></i></a>
                             <img src="./img/Netflix-avatar.png" alt="">
                             <div class="dropdown">
-                                <button class="btn dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn dropdown-toggle border-0 text-white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                   
                                 </button>
                                 <ul class="dropdown-menu" style="">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  <li class="d-flex align-items-center bg-danger-subtle ps-3"><img src="./img/Netflix-avatar.png" alt=""> <a class="dropdown-item text-black" href="#">Riky</a></li>
+                                  <li class="d-flex align-items-center ps-3"><img src="./img/Netflix-avatar.png" alt=""> <a class="dropdown-item text-black" href="#">Nimesh</a></li>
+                                  <li class="d-flex align-items-center bg-dark-subtle ps-3"><img src="./img/Netflix-avatar.png" alt=""> <a class="dropdown-item text-black" href="#">Fabio</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -51,29 +51,29 @@
     <main>
         <!-- insieme per il nostro pianeta -->
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between pt-4">
                 <div>
-                    <h2>Insieme per il nostro pianeta</h2>
+                    <h2 class="text-white">Insieme per il nostro pianeta</h2>
                 </div>
                 <div class="d-flex align-items-center">
-                    <div class="dropdown">
-                        <button id="border_1" class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <div class="dropdown d-sm-none d-md-none d-lg-block">
+                        <button id="border_1" class="btn  dropdown-toggle gray" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                         </button>
                         <ul class="dropdown-menu" style="">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Azione</a></li>
+                          <li><a class="dropdown-item" href="#">Avventura</a></li>
+                          <li><a class="dropdown-item" href="#">Horror</a></li>
                         </ul>
                     </div>
                     <div class="dropdown border_1">
-                        <button class="btn d-flex align-items-center  dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <i class="fa-solid fa-bars pe-3"></i>
-                          <div class="pe-3">suggerimenti per te</div>
+                        <button class="btn d-flex align-items-center text-white dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa-solid fa-bars pe-3 text-white"></i>
+                          <div class="pe-3 text-white">Suggerimenti per te</div>
                         </button>
                         <ul class="dropdown-menu" style="">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><a class="dropdown-item" href="#">Film</a></li>
+                          <li><a class="dropdown-item" href="#">Serie tv</a></li>
+                          <li><a class="dropdown-item" href="#">Anime</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,49 +82,95 @@
         <!-- film section -->
         <div class="container">
             <div class="row riga-film flex-nowrap overflow-auto mt-4">
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4  container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
             </div>
 
             <div class="row riga-film flex-nowrap overflow-auto mt-4">
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4  container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
-                <div class="col-2 container_img">
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+            </div>
+            <div class="row riga-film flex-nowrap overflow-auto mt-4">
+                <div class="col-lg-2 col-md-3 col-sm-4  container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+            </div>
+            <div class="row riga-film flex-nowrap overflow-auto mt-4">
+                <div class="col-lg-2 col-md-3 col-sm-4  container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
+                    <img src="./img/jaula-film-netflix.jpg" alt="">
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 container_img">
                     <img src="./img/jaula-film-netflix.jpg" alt="">
                 </div>
             </div>
