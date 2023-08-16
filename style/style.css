@@ -1,4 +1,6 @@
-
+body a:hover {
+    color: red;
+}
 header {
     height: 80px;
     background-color: black;
@@ -16,6 +18,10 @@ header {
 
 .right_side_header img{
     height: 30px;
+}
+
+nav .w_470px {
+    width: 470px;
 }
 
 .right_side_header a {
@@ -52,6 +58,11 @@ main {
 .container_img img {
     width: 100%;
     height: 100%;
+}
+
+.film_section img:hover{
+    filter: contrast(0.5);
+    cursor: pointer;
 }
 
 .riga-film{
